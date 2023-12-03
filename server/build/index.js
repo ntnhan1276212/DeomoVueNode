@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const server_1 = __importDefault(require("./server"));
 const app = (0, express_1.default)();
 const server = new server_1.default(app);
-const PORT = 5000;
+const PORT = 5002;
 app
     .listen(PORT, "localhost", function () {
     console.log(`Server is running on port ${PORT}.`);

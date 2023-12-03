@@ -3,7 +3,7 @@ import Server from "./server";
 
 const app: Application = express();
 const server: Server = new Server(app);
-const PORT: number =  5001;
+const PORT: number =  5002;
 
 app
   .listen(PORT, "localhost", function () {
